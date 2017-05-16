@@ -23,4 +23,18 @@ npm config set disturl https://npm.taobao.org/dist
 
 ```
 
+#### ` React/RCTBundleURLProvider.h file not found `
+OS: `rn0.40+`
+(1)解决方案：
+- Try the following:
+ - Clean (`cmd+shift+K`).
+ - Build core React - select React as the scheme in Xcode and build it (`cmd+B`).
+ - Build the library that is failing (e.g. RCTText).
+ - Build your app.
+
+(2)尝试一下操作
+- 删除`node_modules`文件夹 - `rm -rf node_modules` && `npm install`
+ - 重置包装缓存 - rm -fr $TMPDIR/react-* or node_modules/react-native/packager/packager.sh --reset-cache
+ - Clear watchman watches - watchman watch-del-all
+
 	
