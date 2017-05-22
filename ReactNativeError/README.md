@@ -1,3 +1,6 @@
+# react native 常见问题
+> 欢迎补充
+
 ### 0x001
 
 > Cannot add a child that doesn't have a CSS node to a node without a measure function!
@@ -29,7 +32,7 @@ npm config set disturl https://npm.taobao.org/dist
 
 ```
 
-### 0x002：React/RCTBundleURLProvider.h file not found
+### 0x003：React/RCTBundleURLProvider.h file not found
 OS: `rn0.40+`
 (1)解决方案：
 - Try the following:
@@ -43,25 +46,25 @@ OS: `rn0.40+`
  - 重置包装缓存 - rm -fr $TMPDIR/react-* or node_modules/react-native/packager/packager.sh --reset-cache
  - Clear watchman watches - watchman watch-del-all
 
-### 0x003：react native打包后image无法显示
+### 0x004：react native打包后image无法显示
 > [react native打包后image无法显示，debug下却可以](https://my.oschina.net/u/1460994/blog/802181)
 
-### 0x004: React Native开发错误警告总结
+### 0x005: React Native开发错误警告总结
 > [React Native开发错误警告总结（持续更新](http://www.jianshu.com/p/98c8f2a970eb)
 
-### 0x005: 平台适配
+### 0x006: 平台适配
 - 初期 (不建议)
  1.Android中图片放在android\app\src\main\res下(文件夹名:drawable-xxhdpi),并且图片名都是小写
  2.Ios中进入ios\MobileCampus\下,删除Images.xcassets文件夹下的东西,复制你的图片
 - 后期 (推荐)
  ....
 
-### 0x006: react native USB真机调试报错
+### 0x007: react native USB真机调试报错
 > com.android.builder.testing.api.DeviceException: com.android.ddmlib.InstallException: Unable to upload some APKs
 
 [解决方法](http://csbun.github.io/blog/2015/12/starting-react-native-with-android/)
 
-### 0x007: React Native Reload不更新
+### 0x008: React Native Reload不更新
 ```
 解决方案:
 例如:E:\Study\node_modules\react-native\packager\react-packager\src\node-haste\FileWatcher\index.js
@@ -92,18 +95,18 @@ _createWatcher(rootConfig) {
   }
 ```
 
-### 0x008: ListView不滑动
+### 0x00a: ListView不滑动
 ```
 解决方法：listview自身和它的父容器都要加flex：1,哪层断了都不行
 
 相关解决方法:[stackoverflow](http://stackoverflow.com/questions/32874559/listview-fails-to-scroll);
 ```
 
-#### 0x00a: Genymotion使用问题
+#### 0x00b: Genymotion使用问题
 
 > 在操控Genymotion时,鼠标左右滑动会切换到自动搜索,搜索框中自动输入0003,这问题搞得我当时很头痛,最后发现是因为开启的有道词典的划词取词导致这样,关闭有道或者取消划词取词功能;
 
-#### 0x00b: 安卓禁止禁止横屏：
+#### 0x00c: 安卓禁止禁止横屏：
 > ..\android\app\src\main\AndroidManifest.xml
 
 > 添加： 找到android:name=".MainActivity" 
