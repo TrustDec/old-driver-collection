@@ -1,4 +1,4 @@
-# react native 干活分享
+# react native 干货分享
 > 欢迎补充
 
 ### s-01: 使用
