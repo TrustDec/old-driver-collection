@@ -113,6 +113,25 @@ _createWatcher(rootConfig) {
 
 > 添加属性： android:screenOrientation="portrait"
 
+#### 0x00d: image not found 出现 lldb 命令
+> 说明程序崩溃，自动进入debug
+
+> 低版本手机里,Xocde的高版本Framework不支持.
+
+```
+dyld: Library not loaded: /System/Library/Frameworks/UserNotifications.framework/UserNotifications
+  Referenced from: /Users/xxx/Library/Developer/CoreSimulator/Devices/1861D915-BD31-4DA8-B9FC-BAD82B56FF14/data/Containers/Bundle/Application/B9EAEF7A-20FA-4106-8282-4C97C351B787/YouProjectName.app/YouProject
+  Reason: image not found
+  (lldb)
+```
+解决方案
+```
+target下的Build Phases标签里,找到Link Binary With Libraries,在里面找到UserNotifications.framework,把status由Required 修改成Optional，然后再运行就
+```
+
+
+ 
+
 
 
 
