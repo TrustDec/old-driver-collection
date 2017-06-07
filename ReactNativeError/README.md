@@ -70,7 +70,8 @@ OS: `rn0.40+`
 例如:E:\Study\node_modules\react-native\packager\react-packager\src\node-haste\FileWatcher\index.js
 ```
 找到`_createWatcher`关键字并更改相应代码:
-```
+```javascript
+
 const MAX_WAIT_TIME = 360000;
 
 _createWatcher(rootConfig) {
