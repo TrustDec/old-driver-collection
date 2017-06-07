@@ -130,7 +130,13 @@ target下的Build Phases标签里,找到Link Binary With Libraries,在里面找�
 ```
 
 #### 0x00e: Camera has no propType for native prop RCTCamera.testID of native type String
+<<<<<<< HEAD
 <img src="../images/0x00e.png" width="250">
+=======
+<div align = center>
+	<img src="../Images/0x00e.png" width="250">
+</div>
+>>>>>>> d87babc80f9beb0ea9e1c4abf264504d57693dad
 
 > [react-native-camera pr 解决方案](https://github.com/lwansbrough/react-native-camera/pull/718/files)
 
