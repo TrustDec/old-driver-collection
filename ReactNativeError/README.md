@@ -181,7 +181,7 @@ Then, by reloading the app on the phone, it should work.
 
 > [解决方案](http://www.cnblogs.com/cielu/p/6940184.html)
  
-> 等渲染出来之后再加个的setTimeout（），让它重新加载一下就好了
+> 解决方案:等渲染出来之后再加个的setTimeout（），让它重新加载一下就好了
 
 
 
