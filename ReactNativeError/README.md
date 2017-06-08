@@ -177,6 +177,12 @@ open a terminal from here. And type adb reverse tcp:8081 tcp:8081
 Then, by reloading the app on the phone, it should work.
 ```
 
+#### 0x00h react-native-swiper Android|ios 用到了可滚动组件（如：FlatList , SectionList,ListView,ScrollView 等），swiper无法正常显示
+
+> [解决方案](http://www.cnblogs.com/cielu/p/6940184.html)
+ 
+> 等渲染出来之后再加个的setTimeout（），让它重新加载一下就好了
+
 
 
 
