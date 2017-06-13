@@ -4,7 +4,7 @@
 ### s-01: 使用
 - react-native指定版本：
 
-```react-native init Name --version=0.42```
+```react-native init Name --version=0.44.3```
 > [详细版本信息指定方式](http://www.jianshu.com/p/646c5fbd9659)
 
 ### s-02: 组件
@@ -13,6 +13,10 @@
 > [Touch Android](https://github.com/jariz/react-native-fingerprint-android)
 
 > [Touch IOS](https://github.com/naoufal/react-native-touch-id)
+
+> [3d 幻灯片](https://github.com/archriss/react-native-snap-carousel)
+
+> [[天地之灵] 3d 轮播图视频](http://v.youku.com/v_show/id_XMjYwOTU0NzY0MA==.html?spm=a2hzp.8253869.0.0)
 
 ### s-03: 博客
 > [博客之星-刘成](http://my.csdn.net/liu__520)
