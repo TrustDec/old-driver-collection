@@ -28,8 +28,4 @@
 
 
 
-#### 微信公众号：Domeday
-![](https://raw.githubusercontent.com/TrustTheBoy/imagesGithub/master/WeChat/publick/WeChatCode.jpg)
-
-
 
