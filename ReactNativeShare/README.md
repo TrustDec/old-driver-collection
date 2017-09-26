@@ -18,6 +18,8 @@
 
 > [[天地之灵] 3d 轮播图视频](http://v.youku.com/v_show/id_XMjYwOTU0NzY0MA==.html?spm=a2hzp.8253869.0.0)
 
+> [React Native 实现自定义消息推送通知声音](http://www.jianshu.com/p/1a8edb7e54c4)
+
 ### s-03: 博客
 > [🏅Christoph Michel react native 博客](http://cmichel.io) ==> [Github](https://github.com/MrToph)
 
