@@ -184,6 +184,14 @@ Then, by reloading the app on the phone, it should work.
 > 解决方案:等渲染出来之后再加个的setTimeout（），让它重新加载一下就好了
 
 
+#### 0x00I ../react-native-xcode.sh: No such file or directory
+
+> [解决方案](https://stackoverflow.com/questions/33650380/react-native-error-react-native-xcode-sh-line-45-react-native-command-not-f)
+
+
+
+
+
 
 
 

@@ -34,3 +34,10 @@
 
 ### s-05: 手册
 > [React/React Native 的ES5 ES6写法对照表](http://reactnative.cn/post/15)
+
+### s-06: * 奔溃日志收集
+> [react-native-fabric(740+)](https://github.com/corymsmith/react-native-fabric)
+
+> [react-native-sentry(200+)](https://github.com/getsentry/react-native-sentry)
+
+> [bugsnag-react-native(130+)](https://github.com/bugsnag/bugsnag-react-native)
