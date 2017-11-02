@@ -20,6 +20,8 @@
 
 > [React Native 实现自定义消息推送通知声音](http://www.jianshu.com/p/1a8edb7e54c4)
 
+> [基于AVPlayer封装的视频播放器，功能丰富，快速集成，可定制性强(ios)](https://github.com/easyui/EZPlayer)
+
 ### s-03: 博客
 > [🏅Christoph Michel react native 博客](http://cmichel.io) ==> [Github](https://github.com/MrToph)
 

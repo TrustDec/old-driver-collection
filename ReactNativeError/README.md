@@ -188,6 +188,10 @@ Then, by reloading the app on the phone, it should work.
 
 > [解决方案](https://stackoverflow.com/questions/33650380/react-native-error-react-native-xcode-sh-line-45-react-native-command-not-f)
 
+#### 0x00I react-native-orientation组件,iOS横屏后，拉取数据就报错
+
+> 横竖屏报错的问题，找到原因了，是因为modal支持的手机屏幕方向的原因，给modal添加一个属性supportedOrientations={['portrait', 'landscape', 'landscape-left', 'landscape-right']} 就OK了。
+
 
 
 
