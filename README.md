@@ -4,8 +4,8 @@
 | redux | react | react native | OS | 其他 |
 |:---|:---|:---|:---|:---|
 |[redux 中文文档][redux-doc]|~[react 设计思想][react-sjsx]~|[rn error][rn-error]|[Linux][linux]|[开发工具][dev]|
-|[redux 官网文档][redux-cn]||[rn share][rn-share]|[mac][mac]|[收藏][md]|
-|[通俗易懂的理解 redux][redux-zhihu]||[rn ios][rn-ios]|[win][win]||
+|[redux 官网文档][redux-cn]|[react-router-dom][react-router]|[rn share][rn-share]|[mac][mac]|[收藏][md]|
+|[通俗易懂的理解 redux][redux-zhihu]|[react-小红书][react-small-book]|[rn ios][rn-ios]|[win][win]||
 |[redux:基本用法][redux-start-one]||[rn android][rn-android]|||
 |[redux:中间件与异步操作][redux-start-two]||[react-native 开发规范][rn-gf]|||
 |[react-redux 的用法][redux-start-three]|||||
@@ -45,6 +45,8 @@
 [rn-redux-4]:http://www.jianshu.com/p/109972339b54
 [rn-redux-5]:http://www.jianshu.com/p/d7fadd77cbf5
 [rn-redux-6]:http://www.jianshu.com/p/0bab91ba74dd
+[react-router]:http://reacttraining.cn/core/guides/testing
+[react-small-book]:https://github.com/huzidaha/react-naive-book
 
 
 
