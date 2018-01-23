@@ -1,8 +1,12 @@
 ### 在线预览
  [热更新][hotpush]
+
  [深入React技术栈-陈屹著][react-c]
+
  [深入浅出React和Redux][react-redux]
+
  [九年双11：互联网技术超级工程][taobao]
+ 
  [Packt.Mastering.React.Native.2017.1][Packt]
  
  [Packt]:https://trusttheboy.github.io/old-driver-collection/FileDoc/Packt.Mastering.React.Native.2017.1.pdf
