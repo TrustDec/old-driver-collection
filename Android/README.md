@@ -6,17 +6,17 @@
 > 原因:由网络原因,Gradle下载不了or速度慢，导致无法打开新建项目
 #### 解决方案 离线安装
 
-[点击进入下载地址](https://services.gradle.org/distributions/)下载匹配版本
+下载匹配版本 [点击进入下载地址](https://services.gradle.org/distributions/)
 
 问题1: 并不知道AS创建新项目时下载的`gradle`版本号？
 
 > 解决方式一：
 
-    打开活动监视器->点击网络->查找AS进程->双击进程->点击打开文件和端口-滑动到最底部->[`command+f`]关键字搜索gradle->即可看到`gradle-x.x(.x)-all-zip`
+打开活动监视器->点击网络->查找AS进程->双击进程->点击打开文件和端口-滑动到最底部->[`command+f`]关键字搜索gradle->即可看到`gradle-x.x(.x)-all-zip`
 
 > 解决方式一：
 
-    进入访达 -> [`command+shift+.`]显示隐藏文件 -> 找到`.gradle`->进入`.gradle/wrapper/dists/gradle-x-x-x-all/(串码)` ->可确定AS当前下载的版本(AS一般默认下载最新的gradle)
+进入访达 -> [`command+shift+.`]显示隐藏文件 -> 找到`.gradle`->进入`.gradle/wrapper/dists/gradle-x-x-x-all/(串码)` ->可确定AS当前下载的版本(AS一般默认下载最新的gradle)
 
 下载完成之后，放入`.gradle/wrapper/dists/gradle-x-x-x-all/(串码)`下双击解压
 
