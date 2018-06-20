@@ -2,9 +2,9 @@
 > 欢迎补充
 
 ### s-01: 使用
-- react-native指定版本：
+- react-native指定版本：(注意版本号必须精确到两个小数点)
 
-```react-native init Name --version=0.44.3```
+```react-native init Name --version 0.44.3```
 > [详细版本信息指定方式](http://www.jianshu.com/p/646c5fbd9659)
 
 ### s-02: 组件
